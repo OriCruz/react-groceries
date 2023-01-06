@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Lucida Handwriting;
+  background-color: rgb(42, 210, 240);
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+form{
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, rgb(42, 210, 240)), to(rgb(42, 210, 240)));
+  background-size: 49px 100%;
+}
+.each{
+  height: fit-content;
+  width: 100%;
+  /* Cool dividers I found on internet that are actually not dividers but background shaped */
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, rgb(42, 210, 240)), to(rgb(42, 210, 240)));
+  background-size: 49px 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
